@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features - Linguasign</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="auth-check.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-icon"><i class="fas fa-sign-language"></i></span>
+        <span>Linguasign</span>
+      </a>
+      <nav class="site-nav">
+        <a href="home.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="demo.html">Demo</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
+        <a href="feedback.html">Feedback</a>
+      </nav>
+      <div class="controls">
+        <button class="btn-icon" id="theme-toggle" onclick="toggleTheme()" title="Toggle theme"><i class="fas fa-moon"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">Advanced Capabilities</div>
+      <h1>Comprehensive<span class="accent">Feature Set</span></h1>
+      <p class="hero-sub">Discover all the powerful capabilities that make Linguasign the leading sign language translation platform.</p>
+    </div>
+  </section>
+
+  <!-- Core Features -->
+  <section class="section">
+    <div class="container">
+      <h2>Core Features</h2>
+      <p class="section-sub">The foundation of seamless sign language translation</p>
+      
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-play"></i></div>
+          <h3>Real-Time Translation</h3>
+          <p>Process sign language gestures in under 100 milliseconds. Perfect for live conversations, meetings, and presentations without noticeable delay.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-microphone"></i></div>
+          <h3>Natural Voice Output</h3>
+          <p>AI powered text-to-speech with natural-sounding voices in 50+ languages. Customizable speech rate and accent preferences.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-globe"></i></div>
+          <h3>Global Language Support</h3>
+          <p>Support for American Sign Language (ASL), British Sign Language (BSL), French Sign Language (LSF), and 47+ other sign languages.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-file-alt"></i></div>
+          <h3>Text Generation</h3>
+          <p>Convert sign language directly to readable text. Supports multiple output formats including captions and transcripts.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-sync"></i></div>
+          <h3>Bidirectional Support</h3>
+          <p>Translate from sign to text AND text to sign. Complete two-way communication solution for universal accessibility.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-video"></i></div>
+          <h3>Video Integration</h3>
+          <p>Seamless integration with video conferencing tools. Real-time captions for Zoom, Teams, and Google Meet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Advanced Features -->
+  <section class="section alt-bg">
+    <div class="container">
+      <h2>Advanced Capabilities</h2>
+      <p class="section-sub">Enterprise-grade features for professional use</p>
+      
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-brain"></i></div>
+          <h3>Context Learning</h3>
+          <p>AI learns user's communication style and improves accuracy over time. Personalized translation models for specialized vocabularies.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>Educational Tools</h3>
+          <p>Built-in tutoring system for learning sign language. Interactive exercises and progress tracking.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+          <h3>Analytics Dashboard</h3>
+          <p>Detailed usage statistics and translation history. Insights into communication patterns and frequently used phrases.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Enterprise Security</h3>
+          <p>AES-256 encryption, HIPAA compliance, and SOC 2 Type II certified. Data retention policies configurable by organization.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-code"></i></div>
+          <h3>API Customization</h3>
+          <p>Flexible API endpoints for custom integrations. WebSocket support for real-time applications.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-users"></i></div>
+          <h3>Multi-User Collaboration</h3>
+          <p>Support for group conversations with multiple sign language users. Real-time synchronization across all participants.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Table -->
+  <section class="section">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 1rem;">Feature Comparison</h2>
+      <p style="text-align: center; color: var(--muted); margin-bottom: 3rem;">Choose the perfect plan for your needs</p>
+      
+      <div style="overflow-x: auto;">
+        <div style="display: grid; grid-template-columns: 200px repeat(3, 1fr); gap: 0; border-radius: 16px; overflow: hidden; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); background: var(--card-bg);">
+          <!-- Header Row -->
+          <div style="background: linear-gradient(135deg, rgba(0, 102, 255, 0.08), rgba(0, 212, 219, 0.08)); padding: 2rem; font-weight: 700; border-bottom: 2px solid var(--border); display: flex; align-items: center;">Feature</div>
+          <div style="background: linear-gradient(135deg, rgba(0, 102, 255, 0.15), rgba(0, 212, 219, 0.15)); padding: 2rem; font-weight: 700; text-align: center; border-bottom: 2px solid var(--border); border-left: 1px solid var(--border);">
+            <div style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">STARTER</div>
+            <div style="font-size: 1.3rem; color: var(--primary);">Free</div>
+          </div>
+          <div style="background: linear-gradient(135deg, rgba(0, 102, 255, 0.15), rgba(0, 212, 219, 0.15)); padding: 2rem; font-weight: 700; text-align: center; border-bottom: 2px solid var(--border); border-left: 1px solid var(--border); position: relative;">
+            <div style="position: absolute; top: 0; right: 0; background: var(--primary); color: white; padding: 0.4rem 0.8rem; font-size: 0.75rem; font-weight: 700;">POPULAR</div>
+            <div style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem; margin-top: 0.8rem;">PROFESSIONAL</div>
+            <div style="font-size: 1.3rem; color: var(--primary);">Pro</div>
+          </div>
+          <div style="background: linear-gradient(135deg, rgba(0, 102, 255, 0.15), rgba(0, 212, 219, 0.15)); padding: 2rem; font-weight: 700; text-align: center; border-bottom: 2px solid var(--border); border-left: 1px solid var(--border);">
+            <div style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">ADVANCED</div>
+            <div style="font-size: 1.3rem; color: var(--primary);">Enterprise</div>
+          </div>
+
+          <!-- Data Rows -->
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">Real-Time Translation</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">Voice Output</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">Multi-Language Support (50+)</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">Video Integration</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface); color: var(--muted);">—</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">Analytics Dashboard</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface); color: var(--muted);">—</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">API Access</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface); color: var(--muted);">—</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">Limited</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">Unlimited</div>
+
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">Priority Support</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface); color: var(--muted);">—</div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+          <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+
+          <div style="padding: 1.5rem 2rem; background: var(--card-bg); font-weight: 500;">Custom Integration</div>
+          <div style="padding: 1.5rem 2rem; border-left: 1px solid var(--border); text-align: center; background: var(--surface); color: var(--muted);">—</div>
+          <div style="padding: 1.5rem 2rem; border-left: 1px solid var(--border); text-align: center; color: var(--muted);">—</div>
+          <div style="padding: 1.5rem 2rem; border-left: 1px solid var(--border); text-align: center; background: var(--surface);">
+            <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-box">
+    <h2>Experience All Features</h2>
+    <p>Start with our free tier and upgrade when you're ready.</p>
+    <a href="demo.html" class="btn white">Try Free Demo</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="features.html">Features</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="demo.html">Demo</a>
+          <a href="feedback.html">Feedback</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="blog.html">Blog</a>
+          <a href="careers.html">Careers</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <a href="#">Documentation</a>
+          <a href="#">Community</a>
+          <a href="#">Status</a>
+          <a href="#">Help Center</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container" style="text-align: center;">
+        <p>&copy; 2025 Linguasign. All rights reserved.</p>
+        <div class="footer-social" style="justify-content: center;">
+          <a href="https://twitter.com" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://facebook.com" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://linkedin.com" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://youtube.com" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
