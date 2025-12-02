@@ -138,75 +138,75 @@
   </section>
 
   <!-- Comparison Section -->
-  <section class="section">
-    <div class="container">
-      <h2 style="text-align: center; margin-bottom: 3rem;">What's Included</h2>
-      
-      <div style="overflow-x: auto;">
-        <table style="width: 100%; border-collapse: collapse; margin-top: 2rem;">
-          <thead>
-            <tr style="border-bottom: 3px solid var(--border);">
-              <th style="padding: 1rem; text-align: left; font-weight: 700;">Feature</th>
-              <th style="padding: 1rem; text-align: center; font-weight: 700;">Free</th>
-              <th style="padding: 1rem; text-align: center; font-weight: 700;">Pro</th>
-              <th style="padding: 1rem; text-align: center; font-weight: 700;">Enterprise</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr style="border-bottom: 1px solid var(--surface);">
-              <td style="padding: 1rem;">Translations per month</td>
-              <td style="padding: 1rem; text-align: center;">100</td>
-              <td style="padding: 1rem; text-align: center;">Unlimited</td>
-              <td style="padding: 1rem; text-align: center;">Unlimited</td>
-            </tr>
-            <tr style="border-bottom: 1px solid var(--surface);">
-              <td style="padding: 1rem;">Sign languages</td>
-              <td style="padding: 1rem; text-align: center;">5</td>
-              <td style="padding: 1rem; text-align: center;">50+</td>
-              <td style="padding: 1rem; text-align: center;">50+</td>
-            </tr>
-            <tr style="border-bottom: 1px solid var(--surface);">
-              <td style="padding: 1rem;">Platform access</td>
-              <td style="padding: 1rem; text-align: center;">Web only</td>
-              <td style="padding: 1rem; text-align: center;">Web & Mobile</td>
-              <td style="padding: 1rem; text-align: center;">All platforms</td>
-            </tr>
-            <tr style="border-bottom: 1px solid var(--surface);">
-              <td style="padding: 1rem;">Video integration</td>
-              <td style="padding: 1rem; text-align: center;">-</td>
-              <td style="padding: 1rem; text-align: center;">✓</td>
-              <td style="padding: 1rem; text-align: center;">✓</td>
-            </tr>
-            <tr style="border-bottom: 1px solid var(--surface);">
-              <td style="padding: 1rem;">API access</td>
-              <td style="padding: 1rem; text-align: center;">-</td>
-              <td style="padding: 1rem; text-align: center;">Limited</td>
-              <td style="padding: 1rem; text-align: center;">Unlimited</td>
-            </tr>
-            <tr style="border-bottom: 1px solid var(--surface);">
-              <td style="padding: 1rem;">Support</td>
-              <td style="padding: 1rem; text-align: center;">Community</td>
-              <td style="padding: 1rem; text-align: center;">Priority</td>
-              <td style="padding: 1rem; text-align: center;">Dedicated</td>
-            </tr>
-            <tr>
-              <td style="padding: 1rem;">HIPAA compliance</td>
-              <td style="padding: 1rem; text-align: center;">-</td>
-              <td style="padding: 1rem; text-align: center;">-</td>
-              <td style="padding: 1rem; text-align: center;">✓</td>
-            </tr>
-          </tbody>
-        </table>
+  <!-- What's Included Section -->
+<section class="section">
+  <div class="container">
+    <h2 style="text-align: center; margin-bottom: 1rem;">What's Included</h2>
+    <p style="text-align: center; color: var(--muted); margin-bottom: 3rem;">Compare features across all pricing tiers</p>
+
+    <div style="overflow-x: auto;">
+      <div style="display: grid; grid-template-columns: 200px repeat(3, 1fr); gap: 0; border-radius: 16px; overflow: hidden; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); background: var(--card-bg);">
+
+        <!-- Header Row -->
+        <div style="background: linear-gradient(135deg, rgba(0, 102, 255, 0.08), rgba(0, 212, 219, 0.08)); padding: 2rem; font-weight: 700; border-bottom: 2px solid var(--border); display: flex; align-items: center;">Feature</div>
+
+        <div style="background: linear-gradient(135deg, rgba(0, 102, 255, 0.15), rgba(0, 212, 219, 0.15)); padding: 2rem; font-weight: 700; text-align: center; border-bottom: 2px solid var(--border); border-left: 1px solid var(--border);">
+          <div style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">FREE</div>
+          <div style="font-size: 1.3rem; color: var(--primary);">Starter</div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, rgba(0, 102, 255, 0.15), rgba(0, 212, 219, 0.15)); padding: 2rem; font-weight: 700; text-align: center; border-bottom: 2px solid var(--border); border-left: 1px solid var(--border); position: relative;">
+          <div style="position: absolute; top: 0; right: 0; background: var(--primary); color: white; padding: 0.4rem 0.8rem; font-size: 0.75rem; font-weight: 700;">POPULAR</div>
+          <div style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem; margin-top: 0.8rem;">PRO</div>
+          <div style="font-size: 1.3rem; color: var(--primary);">Pro</div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, rgba(0, 102, 255, 0.15), rgba(0, 212, 219, 0.15)); padding: 2rem; font-weight: 700; text-align: center; border-bottom: 2px solid var(--border); border-left: 1px solid var(--border);">
+          <div style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">ENTERPRISE</div>
+          <div style="font-size: 1.3rem; color: var(--primary);">Enterprise</div>
+        </div>
+
+        <!-- DATA ROW TEMPLATE (copy these blocks for each row) -->
+        <!-- 1. Translations -->
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">Monthly Translations</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">100</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">Unlimited</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); background: var(--surface); text-align: center;">Unlimited</div>
+
+        <!-- 2. Supported Languages -->
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">Sign Languages</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center; background: var(--surface);">5</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">50+</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); background: var(--surface); text-align: center;">Custom</div>
+
+        <!-- 3. Video Integration -->
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">Video Integration</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--surface); border-left: 1px solid var(--border); color: var(--muted); text-align: center;">—</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">
+          <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+        </div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--surface); border-left: 1px solid var(--border); text-align: center;">
+          <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold;">✓</span>
+        </div>
+
+        <!-- 4. API Access -->
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--card-bg); font-weight: 500;">API Access</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--surface); border-left: 1px solid var(--border); color: var(--muted); text-align: center;">—</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); text-align: center;">Limited</div>
+        <div style="padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--surface); border-left: 1px solid var(--border); text-align: center;">Unlimited</div>
+
+        <!-- 5. Support -->
+        <div style="padding: 1.5rem 2rem; background: var(--card-bg); font-weight: 500;">Support Level</div>
+        <div style="padding: 1.5rem 2rem; border-left: 1px solid var(--border); background: var(--surface); text-align: center; color: var(--muted);">Community</div>
+        <div style="padding: 1.5rem 2rem; border-left: 1px solid var(--border); text-align: center;">Priority</div>
+        <div style="padding: 1.5rem 2rem; border-left: 1px solid var(--border); background: var(--surface); text-align: center;">Dedicated</div>
+
       </div>
     </div>
-  </section>
 
-  <!-- CTA -->
-  <section class="cta-box">
-    <h2>Start Translating Today</h2>
-    <p>Choose your plan and join thousands of users breaking communication barriers.</p>
-    <a href="demo.html" class="btn white">Try Free Demo</a>
-  </section>
+  </div>
+</section>
+
 
   <!-- Footer -->
   <footer class="site-footer">
@@ -259,5 +259,6 @@
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
