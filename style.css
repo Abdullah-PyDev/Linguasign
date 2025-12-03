@@ -2066,11 +2066,7 @@ body {
   }
 }
 
-/* ============================================
-   Font Awesome Icon Styling
-   ============================================ */
 
-/* Brand Icon - sign language */
 .brand-icon i {
   color: black;
   transition: transform 0.3s ease, color 0.3s ease;
@@ -2241,3 +2237,4 @@ body {
     font-size: 2rem;
   }
 }
+
